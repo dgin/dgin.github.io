@@ -1,0 +1,74 @@
+/* This is a comment. Stylesheet for profile.html(name subject to change)*/
+body {
+    font-family: Arial;
+    background-color: #ffc;
+
+}
+header {
+    z-index: 1;
+    background-color: indianred;
+    border-radius: 5px;
+    border-bottom: 10px;
+    border-bottom-style: solid;
+    border-color: black;
+
+
+}
+
+div:not(.button) {
+    border-radius: 5px;
+    border-width: 3px;
+    /*to test spacing only*/
+    border-style: none;
+    border-color: blue;
+
+
+
+}
+
+.photo {
+    width: 45%;
+    height: auto;
+    display: inline-block;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.button {
+    display: inline;
+    padding: 0 50px 0 10px;
+}
+
+.description {
+    display: inline-block;
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+    top: 35px;
+    padding-left: 8px;
+}
+
+.description2 {
+    display: inline-block;
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    padding-left: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    clear: both;
+    position: absolute;
+    /*When page is longer, display footer */
+    display: none;
+}
